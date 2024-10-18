@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin-bottom: 10px;
+  }
+  
+  .row {
+    display: flex;
+  }
+  
+  .cell {
+    width: 25px;
+    height: 25px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .cell.start {
+    background-color: green;
+  }
+  
+  .cell.end {
+    background-color: red;
+  }
+  
+  .cell.path {
+    background-color: blue;
+  }
+  
+  .reset-button {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+  }
